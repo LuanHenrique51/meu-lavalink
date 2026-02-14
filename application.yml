@@ -1,0 +1,17 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+
+lavalink:
+  server:
+    password: "youshallnotpass"  # você pode mudar, mas use a mesma no bot
+    sources:
+      youtube: true
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false
+    youtubeConfig:
+      searchEnabled: true
