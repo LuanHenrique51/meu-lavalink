@@ -4,14 +4,15 @@ server:
 
 lavalink:
   server:
-    password: "youshallnotpass"  # você pode mudar, mas use a mesma no bot
+    password: "luan123"
     sources:
       youtube: true
       bandcamp: true
       soundcloud: true
-      twitch: true
-      vimeo: true
-      http: true
-      local: false
-    youtubeConfig:
+    youtube:
+      playlistLoadLimit: 6
       searchEnabled: true
+
+logging:
+  level:
+    root: INFO
